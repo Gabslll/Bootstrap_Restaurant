@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Moon</title>
+    <link href="https://fonts.cdnfonts.com/css/magison" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=melodrama@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand m-0" href="#"><h1 class="text m-0">月亮<span class="brand-color">餐厅</span></h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">月亮<span class="brand-color">餐厅</span></h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#typical">Typical Foods</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#m" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#menu">Lámen</a></li>
+                    <li><a class="dropdown-item" href="#menu">Pork</a></li>
+                    <li><a class="dropdown-item" href="#menu">Moon Cake</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#contact-us">Contact Us</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="position-relative">
+        <img src="images/home-page.jpg" class="img-fluid home-page" alt="Table Restaurant">
+        <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h1 class="display-1 text-light book"><span class="book brand-color">Green Moon</span> Restaurant</h1>
+            <h1 class="display-1 text-light book">Since <span class="book brand-color">1153</span></h1>
+        </div>
+    </div> 
+    <div data-bs-spy="scroll" data-bs-target="navbar">
+      <div class="pt-5 pb-4" id="back">'"'
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/interior.jpg" class="d-block w-100 rounded-5 interior" alt="Internal space the restaurant">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="book about mt-5 m-5 text-center text-about" id="about">About the Restaurant</h2>
+                    <p class="m-5 history">Is a historic restaurant in <span class="brand-color">Kaifeng, Henan, China</span>, 
+                        said to be originally established in <span class="brand-color">1153</span>, during the 
+                        <span class="brand-color">Jin Dinasty (1115-1234).</span>
+                    </p>
+                    <p class="m-5 history">The Ma family began trading in bucket chicken in <span class="brand-color">Najing</span>, 
+                        in today's <span class="brand-color">Jiangsu Province</span>, 
+                        after the Song <span class="brand-color">Dinasty</span> moved to the south.
+                    </p>
+                    <i class="bi bi-box-arrow-up-right m-5 p-1 linkar brand-color"> Read More </i>
+                </div>
+            </div>
+        </div>
+      </div>
+      <section id="typical" class="food pb-5 pt-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="book about text-center pb-5">Typical <span class="book brand-color">Foods</span> Restaurant</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/Typical Foods/Lamen.jpg" alt="Lámen" class="d-block w-100 border border-success-subtle" style="border-radius: 280px 280px 0px 0px;">
+              <h3 class="book history text-center pt-5">Lámen</h3>
+            </div>
+            <div class="col-md-4 foo">
+              <img src="images/Typical Foods/Carne de porco.jpg" alt="Pork" class="d-block w-100 pork border border-success-subtle" style="border-radius: 280px 280px 0px 0px;">
+              <h3 class="book history text-center pt-5">Roasted Pork</h3>
+            </div>
+            <div class="col-md-4 foo">
+              <img src="images/Typical Foods/Bolo da lua.jpg" alt="Moon Cake" class="d-block w-100 cake border border-success-subtle" style="border-radius: 280px 280px 0px 0px;">
+              <h3 class="book history text-center pt-5">Moon Cake</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="menu" class="pt-5 pb-4">
+        <div class="container">
+          <div class="row">
+            <h2 class="book display-2 text-center mb-5" style="color: #fff;">Menu</h2>
+          </div>  
+          <div class="row" >
+            <aside class="col-md-2">
+              <nav class="nav nav-pills flex-column nav-menu">
+                <button type="button" data-bs-toggle="tab" data-bs-target="#lamen" class="fw-bold text-start nav-link fs-5 brand-color  active">Lámen</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#pork" class="fw-bold text-start nav-link fs-5 brand-color ">Pork</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#moon-cake" class="fw-bold text-start nav-link fs-5 brand-color ">Moon Cake</button>
+              </nav>
+            </aside>
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div class="tab-pane active" id="lamen">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="images/menu/Tofu-caramelo-legumes.jpg" class="d-block w-100" alt="Tonkotsu Lamen">
+                      <h5 class="brand-color history fw-bold mt-3">Tonkotsu Lámen</h5>
+                      <p class="brand-color">250g</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/menu/Lamen2.jpg" class="d-block w-100" alt="Lamen Shio">
+                      <h5 class="brand-color history fw-bold mt-3">Lámen Shio</h5>
+                      <p class="brand-color">250g</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/menu/lamen3.jpg" class="d-block w-100" alt="Lamen Misso">
+                      <h5 class="brand-color history fw-bold mt-3">Lámen Missô</h5>
+                      <p class="brand-color">250g</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="pork">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="images/menu/pork.jpg" class="d-block w-100" alt="Roasted Pork">
+                      <h5 class="brand-color history fw-bold mt-3">Roasted Pork</h5>
+                      <p class="brand-color">55g</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/menu/pork2.jpg" class="d-block w-100" alt="Pork with bacon">
+                      <h5 class="brand-color history fw-bold mt-3">Pork with Bacon</h5>
+                      <p class="brand-color">90g</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="moon-cake">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="images/menu/cake 1.jpg" class="d-block w-100" alt="Moon Cake">
+                      <h5 class="brand-color history fw-bold mt-3">Eclipse Moon Cake</h5>
+                      <p class="brand-color">40g</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/menu/cake 2.jpg" class="d-block w-100" alt="Moon Cake">
+                      <h5 class="brand-color history fw-bold mt-3">Summer Moon Cake</h5>
+                      <p class="brand-color">70g</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/menu/cake 3.jpg" class="d-block w-100" alt="Moon Cake">
+                      <h5 class="brand-color history fw-bold mt-3">White Moon Cake</h5>
+                      <p class="brand-color">97g</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact-us" class="pb-5 pt-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="display-2 book brand-color text-center">Contact Us</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label fs-3 fw-bold brand-color">Your Name:</label>
+                  <input type="text" id="name" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="e-mail" class="form-label fs-3 fw-bold brand-color">Your e-mail:</label>
+                  <input type="email" id="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="telephone" class="form-label fs-3 fw-bold brand-color">Your telephone (optional):</label>
+                  <input type="tel" id="telephone" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label fs-3 fw-bold brand-color">Your message:</label>
+                  <textarea id="message" class="form-control" cols="5" rows="3" required></textarea>
+                </div>
+                <button type="button" class="btn fw-bold">Send Message</button>
+              </form>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <h3 class="book fs-1 mt-5 ms-4 brand-color">Social Media</h3>
+                <ul class="social-links">
+                  <li class="fs-4 ms-4">
+                    <a href="#">
+                      <i class="brand-color bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="fs-4 ms-1 me-1">
+                    <a href="#">
+                      <i class="brand-color bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="fs-4">
+                    <a href="#">
+                      <i class="brand-color bi bi-whatsapp"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <h3 class="book fs-1 mt-5 ms-4 brand-color">Address</h3>
+                <p class="ms-4 fs-4" style="color: rgb(31, 32, 31);">
+                  7156 SANTA MONICA BLVD, WEST HOLLYWOOD, CA 90046
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

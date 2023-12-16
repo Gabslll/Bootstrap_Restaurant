@@ -1,0 +1,89 @@
+* {
+    font-family: 'Melodrama', sans-serif;
+}
+
+h1, #navbar .nav-link {
+    color: #fff;
+}
+
+.brand-color {
+    color: rgb(78, 97, 81);
+}
+
+.book {
+    font-family: 'Magison', sans-serif;
+}
+
+.about {
+    color: #fff;
+    font-size: 48px;
+}
+
+.history {
+    color: #fff;
+    font-size: 40px;
+}
+
+.linkar {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#back, #menu {
+    background-color: rgb(31, 32, 31);
+}
+
+#typical {
+    background-color: rgb(51, 61, 57);
+}
+
+.pork {
+    height: 520px;
+}
+
+.cake {
+    height: 520px;
+}
+
+.food {
+    background-color: rgb(31, 32, 31);
+}
+
+.nav-menu .nav-link.active,
+#contact-us button {
+    background-color: rgb(78, 97, 81);
+    color: #fff;
+}
+
+.nav-menu .nav-link:hover {
+    color: rgb(31, 32, 31);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .foo img {
+        height: 370px;
+    }
+
+    .interior {
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .home-page {
+        height: 375px;
+    }
+    .navbar {
+        width: 375px;
+    }
+}
